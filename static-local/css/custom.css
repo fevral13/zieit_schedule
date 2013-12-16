@@ -1,0 +1,15 @@
+.footer {
+    text-align: center;
+}
+
+table.form {
+    width: 100%;
+}
+
+table.form th {
+    text-align: right;
+}
+
+#id_subscriptions li {
+    list-style: none;
+}

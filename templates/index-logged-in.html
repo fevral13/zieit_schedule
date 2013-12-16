@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+
+      <div id="subscriptions" class="row marketing">
+      <p>Выберите расписания, об обновлении которых вы хотите узнать пораньше</p>
+      <form action="." method="post">
+          {% csrf_token %}
+            {{ form.subscriptions }}
+          <input class="btn btn-success" type="submit" value="Сохранить"/>
+      </form>
+      </div>
+
+{% endblock %}

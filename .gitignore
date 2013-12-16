@@ -1,0 +1,5 @@
+settings_local.py
+.idea
+static/
+media/
+fabfile.py
